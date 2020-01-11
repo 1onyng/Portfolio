@@ -374,7 +374,11 @@ input, select, textarea {
 		}
 
 		.row > .col-6 {
-			width: 50%;
+			width: 50%; /*change*/
+		}
+
+		.row > .col-6.col-12-medium-full {
+			width: 100%; 
 		}
 
 		.row > .off-6 {
@@ -2035,6 +2039,7 @@ input, select, textarea {
 
 	header.major {
 		margin: 0 0 1em 0;
+		text-align: center;
 	}
 
 		header.major:after {
@@ -2280,7 +2285,7 @@ input, select, textarea {
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			font-family: 'Font Awesome 5 Free';
+			font-family: 'Font Awesome 5 Free'; /*envelope*/
 			font-weight: 400;
 		}
 
@@ -2349,6 +2354,32 @@ input, select, textarea {
 				font-size: 4em;
 				line-height: 1em;
 			}
+
+			.icon.major2 {
+			text-decoration: none;
+			color: #555;
+			cursor: default;
+			display: inline-block;
+			margin: 0 0 1.5em 0;
+		}
+
+		.icon.major2:before {
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			display: inline-block;
+			font-style: normal;
+			font-variant: normal;
+			text-rendering: auto;
+			line-height: 1;
+			text-transform: none !important;
+			/* font-family: 'Font Awesome 5 Free'; */
+			font-weight: 400;
+		}
+
+		.icon.major2:before {
+			font-size: 4em;
+			line-height: 1em;
+		}
 
 /* Image */
 
@@ -2587,7 +2618,7 @@ input, select, textarea {
 
 		ul.major-icons li {
 			display: inline-block;
-			padding: 2.5em;
+			padding: 1em;
 			text-align: center;
 		}
 
@@ -2815,7 +2846,7 @@ input, select, textarea {
 /* Main */
 
 	.main {
-		padding: 6em 0 4em 0 ;
+		padding: 3em 0 1em 0 ;
 	}
 
 		.main.style1 {
@@ -3510,3 +3541,10 @@ input, select, textarea {
 			}
 
 	}
+
+	.skills {
+    /* float:  left; */
+    width:  95px;
+    height: 95px;
+    /* background-size: cover; */
+}
